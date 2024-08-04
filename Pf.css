@@ -1,0 +1,75 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+}
+
+img{
+  border-radius: 10px;
+}
+
+header {
+  background-color:rgb(132, 118, 118);
+  color: white;
+ 
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: -250px;
+}
+
+header nav ul {
+  list-style: none;
+  margin-left: 400px;
+margin-right: -400px;
+  
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+ margin-left: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.container {
+  width: 80%;
+  margin-left: 100px;
+  padding: 30px;
+}
+
+#about, #projects, #contact {
+  margin-bottom: 10px;
+}
+#contact p a:hover{
+  color:white;
+  font-size: 18px;
+}
+#contact p a:visited{
+  color:rgb(244, 241, 122);
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+
+}
+
+footer {
+  background-color:rgb(93, 87, 87);
+  color: white;
+  text-align: center;
+ 
+}
